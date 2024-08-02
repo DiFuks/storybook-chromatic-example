@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"target": "es2016",
+		"module": "commonjs",
+		"esModuleInterop": true,
+		"strict": true,
+		"skipLibCheck": true,
+		"jsx": "react-jsx"
+	},
+	"include": ["src/**/*.ts", "src/**/*.tsx", ".storybook/**/*.ts", ".storybook/**/*.tsx"]
+}

@@ -1,0 +1,36 @@
+{
+	"name": "storybook-chromatic-example",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"main": "index.ts",
+	"scripts": {
+		"serve": "vite",
+		"storybook": "storybook dev -p 6006",
+		"lint": "eslint \"{**/*,*}.{ts,tsx,js,jsx,json}\"",
+		"build-storybook": "storybook build"
+	},
+	"devDependencies": {
+		"@chromatic-com/storybook": "^1.6.1",
+		"@storybook/addon-essentials": "^8.2.7",
+		"@storybook/addon-interactions": "^8.2.7",
+		"@storybook/addon-links": "^8.2.7",
+		"@storybook/addon-onboarding": "^8.2.7",
+		"@storybook/blocks": "^8.2.7",
+		"@storybook/react": "^8.2.7",
+		"@storybook/react-vite": "^8.2.7",
+		"@storybook/test": "^8.2.7",
+		"@types/eslint": "^9",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"eslint": "^9.8.0",
+		"eslint-config-fuks": "^3.0.0",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"storybook": "^8.2.7",
+		"styled-components": "^6.1.12",
+		"typescript": "^5.5.4",
+		"vite": "^5.3.5"
+	},
+	"packageManager": "yarn@4.3.1"
+}
