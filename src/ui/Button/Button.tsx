@@ -13,7 +13,7 @@ const ButtonStyled = styled.button<{ $type: ButtonType }>`
 	background-color: ${({ $type }) => ($type === `primary` ? `blue` : `red`)};
 	color: white;
 	padding: 10px 20px;
-	border-radius: 5px;
+	border-radius: 10px;
 	cursor: pointer;
 `;
 

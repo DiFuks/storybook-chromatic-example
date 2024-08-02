@@ -3758,7 +3758,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:^11.4.0":
+"chromatic@npm:^11.4.0, chromatic@npm:^11.7.0":
   version: 11.7.0
   resolution: "chromatic@npm:11.7.0"
   peerDependencies:
@@ -8483,6 +8483,7 @@ __metadata:
     "@types/eslint": "npm:^9"
     "@types/react": "npm:^18"
     "@types/react-dom": "npm:^18"
+    chromatic: "npm:^11.7.0"
     eslint: "npm:^9.8.0"
     eslint-config-fuks: "npm:^3.0.0"
     react: "npm:^18.3.1"

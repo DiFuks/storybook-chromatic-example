@@ -39,6 +39,7 @@ const RAW_RUNTIME_STATE =
           ["@types/eslint", "npm:9.6.0"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
+          ["chromatic", "virtual:5d465395bb03a03c7d96f250a093d8f2b099df57e070be0305879a487f5de630b55d47d8bbc6b98f328c23aabfbe10a520ed00dc95b67d32f3d8977214ff7b08#npm:11.7.0"],\
           ["eslint", "npm:9.8.0"],\
           ["eslint-config-fuks", "virtual:fc9ffa98f2c7df12452c98492f0579c5877ac8fe23ff9132048489a7e4c4be440cf96acf14e116ea0a862eed93ab784f0004b6c272bbd65e6ed48b413a509881#npm:3.0.0"],\
           ["react", "npm:18.3.1"],\
@@ -11654,6 +11655,7 @@ const RAW_RUNTIME_STATE =
           ["@types/eslint", "npm:9.6.0"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
+          ["chromatic", "virtual:5d465395bb03a03c7d96f250a093d8f2b099df57e070be0305879a487f5de630b55d47d8bbc6b98f328c23aabfbe10a520ed00dc95b67d32f3d8977214ff7b08#npm:11.7.0"],\
           ["eslint", "npm:9.8.0"],\
           ["eslint-config-fuks", "virtual:fc9ffa98f2c7df12452c98492f0579c5877ac8fe23ff9132048489a7e4c4be440cf96acf14e116ea0a862eed93ab784f0004b6c272bbd65e6ed48b413a509881#npm:3.0.0"],\
           ["react", "npm:18.3.1"],\
