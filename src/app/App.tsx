@@ -8,13 +8,13 @@ export const App: FC = () => {
 
 	return (
 		<div>
-			<h1 style={{ display: `flex`, alignItems: `center`, gap: 16 }}>
-				Count: <Input value={count} readOnly />
-			</h1>
-
 			<Button type='primary' onClick={() => setCount(prev => prev + 1)}>
 				Click me
 			</Button>
+
+			<h1 style={{ display: `flex`, alignItems: `center`, gap: 16 }}>
+				Count: <Input value={count} readOnly />
+			</h1>
 		</div>
 	);
 };

@@ -12,5 +12,6 @@ yarn-error.log
 storybook-static
 .idea/*
 build-storybook.log
+test-results
 
 *storybook.log
