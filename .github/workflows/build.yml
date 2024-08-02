@@ -27,13 +27,6 @@ jobs:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           exitZeroOnChanges: true
 
-      - name: Run Chromatic Playwright Visual Tests
-        uses: chromaui/action@latest
-        with:
-          projectToken: ${{ secrets.CHROMATIC_PLAYWRIGHT_PROJECT_TOKEN }}
-          exitZeroOnChanges: true
-          playwright: true
-
   playwright:
     runs-on: ubuntu-latest
     container:
