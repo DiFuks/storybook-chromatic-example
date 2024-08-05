@@ -10,7 +10,7 @@ interface Props {
 }
 
 const ButtonStyled = styled.button<{ $type: ButtonType }>`
-	background-color: ${({ $type }) => ($type === `primary` ? `blue` : `red`)};
+	background-color: ${({ $type }) => ($type === `primary` ? `green` : `red`)};
 	color: white;
 	padding: 10px 20px;
 	border-radius: 10px;
